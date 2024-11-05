@@ -4,15 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="Кніпка"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello" />
+        android:text="Hello"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Кніпка" />
 </LinearLayout>
